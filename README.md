@@ -19,4 +19,4 @@ We are making a minimal app where users sign up to create simple notes and share
 
 ## Table of contents
 
-- [01 - Setup](/01-setup#readme)
+- [01 - System Setup](/01-system-setup#readme)
