@@ -1,6 +1,6 @@
 <h1 align="center">✅ Blitz App Steps</h1>
 
-This repository is a **step-by-step guide** of all the CLI commands run and files changed to create a simple Blitz app from scratch. It makes it easy to reproduce the app from a fresh empty repository **without using any bit of brain**, and **as fast as possible**.
+This repository is a **step-by-step guide** of all the CLI commands run and files changed to manually create a simple [Blitz](https://blitzjs.com/) app from scratch. It makes it easy to reproduce the app from a fresh empty repository **without using any bit of brain**, and **as fast as possible**.
 
 **This is not a tutorial**. It is not meant to be pedagogical and does not teach you how to use Blitz. However, people who don't like to read the docs and instantly jump to copy-pasting commands (_like me_) might find it efficient to get a fast but superficial glimpse of its concepts.
 
@@ -11,7 +11,7 @@ Following a step-by-step guide is more work than cloning a boilerplate but:
 - It is more flexible, since you can directly adapt commands to your project's needs.
 - It is more future-proof. If libraries have breaking changes, the steps might still work fine.
 
-🍪 Bonus: One virtual cookie for you if you can repeat the name of this repository 5 times fast.
+🍪 **Bonus**: One virtual cookie for you if you can repeat the name of this repository 5 times fast.
 
 ## What are we building?
 
@@ -19,4 +19,4 @@ We are making a minimal app where users sign up to create simple notes and share
 
 ## Table of contents
 
-- [01 - Setup](/01-setup)
+- [01 - Setup](/01-setup#readme)

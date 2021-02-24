@@ -1,18 +1,14 @@
 # 01 - Setup
 
-- Check if Node is installed: `node -v`
+- Check if Node and NPM are installed: `node -v` and `npm -v`
 
-This guide was made with Node `15.3.0`.
-
-- Check if NPM is installed: `npm -v`
-
-This guide was made with NPM `7.0.14`.
+This guide was made with Node `15.3.0` and NPM `7.0.14`
 
 - Check if Blitz is installed: `blitz -v`
 
-If not, install it globally: `npm i -g blitz` or `yarn global add blitz`.
+If not, install it globally: `npm i -g blitz` or `yarn global add blitz`
 
-This guide was made with Blitz `0.30.3`.
+This guide was made with Blitz `0.30.3`
 
 - Create a Git repository
 
