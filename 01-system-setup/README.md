@@ -16,15 +16,14 @@ This guide was made with Blitz `0.30.4`
 
 I assume you haven't created any Git repository or folder for your project yet. We will use Github in this guide.
 
-- **Create a [new repository](https://github.com/new) on GitHub**. Do not create a `README.md` or `.gitignore`
+- **Create a [new repository](https://github.com/new) on GitHub**. Do not create `README.md` or `.gitignore` files.
 - **Copy the repository URL** and **Run `git clone YOUR_REPO_URL`**
 
 ## Blitz project generation
 
 - **`cd` into the created folder**, and **open that folder in your editor**.
 
-- **Run `blitz new .`** to generate a new Blitz project.
-- **Pick `React Final Form (recommended)`**.
+- **Run `blitz new .`** to generate a new Blitz project and **Pick `React Final Form (recommended)`**
 
 - **Customize `package.json`** with a `name`, or whatever else you want in there.
 
