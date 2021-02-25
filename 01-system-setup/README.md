@@ -2,6 +2,8 @@
 
 ## Installs check
 
+- **Open a terminal** and **`cd` to your workspace directory**.
+
 - **Run `node -v` and `npm -v`** to check if Node and NPM are installed.
 
 This guide was made with Node `15.3.0` and NPM `7.0.14`
@@ -9,8 +11,6 @@ This guide was made with Node `15.3.0` and NPM `7.0.14`
 - **Run `blitz -v`** to check if Blitz is installed globally. If not, **run `npm i -g blitz`** or **`yarn global add blitz`**
 
 This guide was made with Blitz `0.30.4`
-
-- **Position your terminal in your workspace directory** from which we'll create the project in a new subdirectory.
 
 ## Git repository
 
