@@ -1,10 +1,12 @@
 # 01 - System Setup
 
+For a smoother experience, some commands in this guide are chained with the `&&` operator. Those require a UNIX-based shell and will not work in Windows's **cmd**. If you are using **cmd** please run them one-by-one.
+
 ## Installs check
 
 - **Open a terminal** and **`cd` to your workspace directory**.
 
-- **Run `node -v` and `npm -v`** to check if Node and NPM are installed.
+- **Run `node -v && npm -v`** to check if Node and NPM are installed.
 
 This guide was made with Node `15.3.0` and NPM `7.0.14`
 
@@ -19,8 +21,6 @@ I assume you haven't created any Git repository or folder for your project yet. 
 - **Create a [new repository](https://github.com/new) on GitHub**. Do not create `README.md` or `.gitignore` files.
 - **Copy the repository URL** and **run `git clone YOUR_REPO_URL`**
 
-For brevity, I will not list **`git add`**, **`git commit`**, and **`git push`** commands in this guide, but you should definitely commit and push your changes incrementally throughout this guide to save your progress.
-
 ## Blitz project generation
 
 - **`cd` into the created folder**, and **open that folder in your editor**.
@@ -28,6 +28,7 @@ For brevity, I will not list **`git add`**, **`git commit`**, and **`git push`**
 - **Run `blitz new .`** to generate a new Blitz project and **Pick `React Final Form (recommended)`**
 
 - **Customize `package.json`** with a `name`, or whatever else you want in there.
+  - **Run `git add package.json && git commit -m "Customize package.json"`** if you did that.
 
 Back to the [home page](https://github.com/verekia/blitz-app-steps)
 Next: [02 - Project Setup](/02-project-setup#readme)
