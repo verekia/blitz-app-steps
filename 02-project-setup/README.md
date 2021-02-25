@@ -4,7 +4,7 @@
 
 Pick `React Final Form (recommended)`.
 
-## PostgreSQL Database via Docker
+## PostgreSQL Databases via Docker
 
 - **Create a [`docker-compose.yml`](/02-project-setup/docker-compose.yml) file containing**:
 
@@ -35,7 +35,7 @@ If you ever want to reset the database, just delete the `data` folder.
 /data/
 ```
 
-- **In `db/schema.prisma`, change the `provider` to `postgres`**:
+- In `db/schema.prisma`, **change the `provider` to `postgres`**:
 
 ```
 datasource db {
@@ -52,4 +52,5 @@ datasource db {
 
 - **Run `npm test` to test the testing database** ([not `blitz test`](https://github.com/blitz-js/blitz/issues/2006))
 
+Back to the [home page](/)
 Previous: [01 - System Setup](/01-system-setup#readme)
