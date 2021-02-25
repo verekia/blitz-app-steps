@@ -30,4 +30,4 @@ Following a step-by-step guide is more work than cloning a boilerplate but:
 
 ## About me
 
-I am Jonathan Verrecchia, aka [@verekia](https://twitter.com/verekia), a French freelance web developer who created [JavaScript Stack From Scratch](https://github.com/verekia/js-stack-from-scratch) and [Initializr](http://www.initializr.com/), and ex-Yelp developer. I love improving my toolset and helping other developers. Here is [my website](https://verekia.com/).
+I am Jonathan Verrecchia, aka [@verekia](https://twitter.com/verekia), a French developer who created [JavaScript Stack From Scratch](https://github.com/verekia/js-stack-from-scratch) and [Initializr](http://www.initializr.com/), and ex-Yelp developer. I love improving my toolset and helping other developers. Here is [my website](https://verekia.com/).
