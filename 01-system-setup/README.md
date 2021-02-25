@@ -1,6 +1,6 @@
 # 01 - System Setup
 
-## Initialization
+## Installs check
 
 - **Run `node -v` and `npm -v`** to check if Node and NPM are installed.
 
@@ -12,23 +12,24 @@ This guide was made with Blitz `0.30.4`
 
 - **Position your terminal in your workspace directory** from which we'll create the project in a new subdirectory.
 
-I assume you haven't created any Git repository or folder for your project yet.
+## Git repository
 
-- **Run `blitz new your_app_name`** to generate a new Blitz project. **Pick `React Final Form (recommended)`**.
+I assume you haven't created any Git repository or folder for your project yet. We will use Github in this guide.
 
-- **`cd` into the project folder**, and open that folder in your editor.
+- **Create a [new repository](https://github.com/new) on GitHub**. Do not create a `README.md` or `.gitignore`
+- **Copy the GitHub repository URL** and 
+- **Run `git clone YOUR_REPO_URL**
+
+## Blitz project generation
+
+- **`cd` into the created folder**, and **open that folder in your editor**.
+
+- **Run `blitz new .`** to generate a new Blitz project.
+- **Pick `React Final Form (recommended)`**.
 
 - **Customize `package.json`** with a `name`, or whatever else you want in there.
 
-## Git
-
-We will use Github in this guide.
-
-- **Create a [new repository](https://github.com/new) on GitHub**. Do not create a `README.md` or `.gitignore`.
-- **Copy the GitHub repository URL**
-- **Run `git branch -M main`**
-- **Run `git remote add origin [YOUR_REPO_URL]`**
-- **Run `git push -u origin main`**
+- **Run `git push`**
 
 Back to the [home page](https://github.com/verekia/blitz-app-steps)
 Next: [02 - Project Setup](/02-project-setup#readme)
