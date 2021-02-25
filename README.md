@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" src="/assets/logo-small-optim.png" width="500" />
+<img align="center" src="/assets/blitz-steps-logo.png" width="500" />
 </p>
 
 <h1>🐾 Blitz Steps</h1>
