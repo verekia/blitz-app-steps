@@ -10,7 +10,7 @@ This repository is a **step-by-step guide** of all the CLI commands run and file
 
 ## What are we building?
 
-We are making a minimal app where users sign up to create, edit, delete, and share simple notes. We'll call it **NotesApp**.
+We are going to build a simple app where users can sign up to create, edit, delete, and share simple notes. It's basically a full-featured minimal app to use as a reference when building other apps. We'll call it **NotesApp**.
 
 ## Why not making a boilerplate instead?
 
