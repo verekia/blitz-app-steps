@@ -8,6 +8,12 @@ This repository is a **step-by-step guide** of all the CLI commands run and file
 
 **This is not a tutorial**. It is not meant to be pedagogical and does not teach you how to use Blitz. However, people who don't like to read the docs and instantly jump to copy-pasting commands (_like me_) might find it efficient to get a fast but superficial glimpse of its concepts.
 
+## What are we building?
+
+We are making a minimal app where users sign up to create simple notes and share them. We'll call it **NotesApp**.
+
+## Just make a boilerplate?
+
 Following a step-by-step guide is more work than cloning a boilerplate but:
 
 - You understand what's included better, because you add things as you go.
@@ -15,11 +21,7 @@ Following a step-by-step guide is more work than cloning a boilerplate but:
 - It is more flexible, since you can directly adapt commands to your project's needs.
 - It is more future-proof. If libraries have breaking changes, the steps might still work fine.
 
-🍪 **Bonus**: One virtual cookie for you if you can repeat the name of this repository 5 times fast.
-
-## What are we building?
-
-We are making a minimal app where users sign up to create simple notes and share them. We'll call it NotesApp.
+Let's get started!
 
 ## Table of contents
 
