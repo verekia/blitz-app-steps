@@ -52,5 +52,5 @@ datasource db {
 
 - **Run `npm test` to test the testing database** ([not `blitz test`](https://github.com/blitz-js/blitz/issues/2006))
 
-Back to the [home page](/)
+Back to the [home page](https://github.com/verekia/blitz-app-steps)
 Previous: [01 - System Setup](/01-system-setup#readme)

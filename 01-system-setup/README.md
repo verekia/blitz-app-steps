@@ -4,9 +4,7 @@
 
 This guide was made with Node `15.3.0` and NPM `7.0.14`
 
-- **Check if Blitz is installed**: `blitz -v`
-
-If not, install it globally: `npm i -g blitz` or `yarn global add blitz`
+- **Run `blitz -v` to check if Blitz is installed**. If not, **run `npm i -g blitz` or `yarn global add blitz` to install it globally**
 
 This guide was made with Blitz `0.30.4`
 
@@ -18,4 +16,5 @@ Here we will use Docker to run a local PostgreSQL database. If you don't want to
 
 - **Launch Docker**
 
+Back to the [home page](https://github.com/verekia/blitz-app-steps)
 Next: [02 - Project Setup](/02-project-setup#readme)
