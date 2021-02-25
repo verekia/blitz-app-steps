@@ -17,7 +17,7 @@ This guide was made with Blitz `0.30.4`
 I assume you haven't created any Git repository or folder for your project yet. We will use Github in this guide.
 
 - **Create a [new repository](https://github.com/new) on GitHub**. Do not create a `README.md` or `.gitignore`
-- **Copy the repository URL** and **Run `git clone YOUR_REPO_URL**
+- **Copy the repository URL** and **Run `git clone YOUR_REPO_URL`**
 
 ## Blitz project generation
 
