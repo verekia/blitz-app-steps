@@ -66,4 +66,4 @@ datasource db {
 - **Run `git add . && git commit -m "Set up database" && git push`**
 
 Back to the [home page](https://github.com/verekia/blitz-app-steps)
-Previous: [01 - System Setup](/01-system-setup#readme)
+Previous: [01 - General Setup](/01-general-setup#readme)

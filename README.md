@@ -19,6 +19,6 @@ We are making a minimal app where users sign up to create simple notes and share
 
 ## Table of contents
 
-- [01 - System Setup](/01-system-setup#readme)
-- [02 - Project Setup](/02-project-setup#readme)
+- [01 - General Setup](/01-general-setup#readme)
+- [02 - Database Setup](/02-database-setup#readme)
 

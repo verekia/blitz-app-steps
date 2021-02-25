@@ -1,6 +1,6 @@
-# 01 - System Setup
+# 01 - General Setup
 
-For a smoother experience, some commands in this guide are chained with the `&&` operator. Feel free to split them and run them one by one.
+For a smoother experience, some commands are chained with the `&&` operator. Feel free to split them and run them one by one.
 
 ## Installs check
 
@@ -35,4 +35,4 @@ This command creates an initial Git commit for you.
 - **Run `git push`**
 
 Back to the [home page](https://github.com/verekia/blitz-app-steps)
-Next: [02 - Project Setup](/02-project-setup#readme)
+Next: [02 - Database Setup](/02-database-setup#readme)
