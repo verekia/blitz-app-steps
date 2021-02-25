@@ -10,9 +10,9 @@ This repository is a **step-by-step guide** of all the CLI commands run and file
 
 ## What are we building?
 
-We are making a minimal app where users sign up to create simple notes and share them. We'll call it **NotesApp**.
+We are making a minimal app where users sign up to create, edit, delete, and share simple notes. We'll call it **NotesApp**.
 
-## Just make a boilerplate?
+## Why not making a boilerplate instead?
 
 Following a step-by-step guide is more work than cloning a boilerplate but:
 
