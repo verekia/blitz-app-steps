@@ -6,7 +6,7 @@
 
 This guide was made with Node `15.3.0` and NPM `7.0.14`
 
-- **Run `blitz -v`** to check if Blitz is installed globally. If not, **run `npm i -g blitz`** or **`yarn global add blitz`**.
+- **Run `blitz -v`** to check if Blitz is installed globally. If not, **run `npm i -g blitz`** or **`yarn global add blitz`**
 
 This guide was made with Blitz `0.30.4`
 
@@ -14,7 +14,9 @@ This guide was made with Blitz `0.30.4`
 
 I assume you haven't created any Git repository or folder for your project yet.
 
-- **Run `blitz new your_app_name`** to generate a new Blitz project. Pick `React Final Form (recommended)`.
+- **Run `blitz new your_app_name`** to generate a new Blitz project. **Pick `React Final Form (recommended)`**.
+
+- **`cd` into the project folder**, and open that folder in your editor.
 
 - **Customize `package.json`** with a `name`, or whatever else you want in there.
 
