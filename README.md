@@ -1,4 +1,6 @@
-<h1 align="center">✅ Blitz App Steps</h1>
+<img align="center" src="/assets/logo-small-optim.png" />
+
+<h1 align="center">🐾 Blitz Steps</h1>
 
 This repository is a **step-by-step guide** of all the CLI commands run and files changed to manually create a simple [Blitz](https://blitzjs.com/) app from scratch. It makes it easy to reproduce the app from a fresh empty repository **without using any bit of brain**, and **as fast as possible**.
 
