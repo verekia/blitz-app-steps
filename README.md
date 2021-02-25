@@ -1,4 +1,4 @@
-<img align="center" src="/assets/logo-small-optim.png" />
+<img align="center" src="/assets/logo-small-optim.png" width="500" />
 
 <h1 align="center">🐾 Blitz Steps</h1>
 
