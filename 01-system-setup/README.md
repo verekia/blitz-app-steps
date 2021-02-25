@@ -1,6 +1,6 @@
 # 01 - System Setup
 
-For a smoother experience, some commands in this guide are chained with the `&&` operator. Those require a UNIX-based shell and will not work in Windows's **cmd**. If you are using **cmd** please run them one-by-one.
+For a smoother experience, some commands in this guide are chained with the `&&` operator. Feel free to split them and run them one by one.
 
 ## Installs check
 
@@ -27,8 +27,12 @@ I assume you haven't created any Git repository or folder for your project yet. 
 
 - **Run `blitz new .`** to generate a new Blitz project and **Pick `React Final Form (recommended)`**
 
+This command creates an initial Git commit for you.
+
 - **Customize `package.json`** with a `name`, or whatever else you want in there.
   - **Run `git add package.json && git commit -m "Customize package.json"`** if you did that.
+
+- **Run `git push`**
 
 Back to the [home page](https://github.com/verekia/blitz-app-steps)
 Next: [02 - Project Setup](/02-project-setup#readme)

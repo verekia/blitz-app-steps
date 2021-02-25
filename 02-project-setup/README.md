@@ -2,9 +2,11 @@
 
 ## PostgreSQL databases setup via Docker
 
-In this guide we will use PostgreSQL. You need a local database to generate migrations (as opposed to developing using a cloud-hosted dev DB) because Prisma creates a shadow database (see [this issue](https://github.com/prisma/prisma/issues/4571#issuecomment-747496127)).
+In this guide we will use PostgreSQL. You need a local database (as opposed to developing using a cloud-hosted dev DB) because Prisma creates a shadow database to generate migrations (see [this issue](https://github.com/prisma/prisma/issues/4571#issuecomment-747496127)).
 
-Here we will use Docker to run a local PostgreSQL database. If you don't want to do that, please tweak the database URL to point to your locally installed database.
+Here we will use Docker to run 2 local PostgreSQL databases, one for development that is persisted in a `data` folder in your project, and a non-persisted one for testing.
+
+If you don't want to use Docker, create the database(s) some other way and skip to the next section.
 
 - **Launch Docker**
 
@@ -29,9 +31,9 @@ services:
       - '5433:5432'
 ```
 
-If you ever want to reset the database, just delete the `data` folder.
+If you ever want to reset the database, just delete the `data` folder and restart the `db` container.
 
-Note that the dev database will be on port `5432` of your machine, and the testing database on port `5433`.
+Note that the dev database will be on port `5432` of your machine, and the testing one on port `5433`.
 
 - **Add to `.gitignore`**:
 
@@ -39,7 +41,10 @@ Note that the dev database will be on port `5432` of your machine, and the testi
 /data/
 ```
 
-- **Run `docker-compose up`** in a new terminal, or `docker-compose up -d` in the same terminal, to start the databases.
+To launch the databases, you can either:
+
+- **Run `docker-compose up`** in a new terminal, and **press `Ctrl + C` to stop them**,
+- or **run `docker-compose up -d`** in the same terminal, and **run `docker-compose down` to stop them**.
 
 ## Prisma setup and first migration
 
@@ -57,6 +62,8 @@ datasource db {
 - **Run `blitz prisma migrate dev --preview-feature`** to generate the first migration for Blitz's provided User model.
 
 - **Run `npm test`** to test the testing database ([not `blitz test`](https://github.com/blitz-js/blitz/issues/2006))
+
+- **Run `git add . && git commit -m "Set up database" && git push`**
 
 Back to the [home page](https://github.com/verekia/blitz-app-steps)
 Previous: [01 - System Setup](/01-system-setup#readme)
