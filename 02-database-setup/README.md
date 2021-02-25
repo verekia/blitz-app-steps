@@ -1,4 +1,4 @@
-# 02 - Database Setup
+# 🐾 Database Setup
 
 ## PostgreSQL databases setup via Docker
 

@@ -1,8 +1,8 @@
-# 🐾 01 - General Setup
+# 🐾 General Setup
 
 For a smoother experience, some commands are chained with the `&&` operator. Feel free to split them and run them one by one.
 
-## 🐾 Installs check
+## Installs check
 
 - **Open a terminal** and **`cd` to your workspace directory**.
 
