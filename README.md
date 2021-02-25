@@ -25,13 +25,6 @@ Following a step-by-step guide is more work than cloning a boilerplate but:
 
 ## Table of contents
 
-- [01 - General Setup](/01-general-setup#readme)
-- [02 - Database Setup](/02-database-setup#readme)
-
-[01 - General Setup](/01-general-setup#readme)
-
-[02 - Database Setup](/02-database-setup#readme)
-
 1. [General Setup](/01-general-setup#readme)
 2. [Database Setup](/02-database-setup#readme)
 
