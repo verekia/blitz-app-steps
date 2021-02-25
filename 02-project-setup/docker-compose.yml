@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:13.2
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: password
+    ports:
+      - '5432:5432'
+  db-testing:
+    image: postgres:13.2
+    environment:
+      POSTGRES_PASSWORD: password
+    ports:
+      - '5433:5432'
