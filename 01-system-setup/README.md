@@ -17,7 +17,9 @@ This guide was made with Blitz `0.30.4`
 I assume you haven't created any Git repository or folder for your project yet. We will use Github in this guide.
 
 - **Create a [new repository](https://github.com/new) on GitHub**. Do not create `README.md` or `.gitignore` files.
-- **Copy the repository URL** and **Run `git clone YOUR_REPO_URL`**
+- **Copy the repository URL** and **run `git clone YOUR_REPO_URL`**
+
+For brevity, I will not list **`git add`**, **`git commit`**, and **`git push`** commands in this guide, but you should definitely commit and push your changes incrementally throughout this guide to save your progress.
 
 ## Blitz project generation
 
@@ -26,8 +28,6 @@ I assume you haven't created any Git repository or folder for your project yet. 
 - **Run `blitz new .`** to generate a new Blitz project and **Pick `React Final Form (recommended)`**
 
 - **Customize `package.json`** with a `name`, or whatever else you want in there.
-
-- **Run `git push`**
 
 Back to the [home page](https://github.com/verekia/blitz-app-steps)
 Next: [02 - Project Setup](/02-project-setup#readme)
