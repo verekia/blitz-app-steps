@@ -8,10 +8,12 @@ This guide was made with Node `15.3.0` and NPM `7.0.14`
 
 If not, install it globally: `npm i -g blitz` or `yarn global add blitz`
 
-This guide was made with Blitz `0.30.3`
+This guide was made with Blitz `0.30.4`
 
-- **Create a Git repository** and `cd` **into the project folder**.
+- **Create a new folder and Git repository and `cd` into it**.
 
 In this guide we will use Docker to run a local PostgreSQL database. If you don't want to do that, please tweak the database URL to point to your locally installed database.
 
 - **Launch Docker**
+
+Next: [02 - Project Setup](/02-project-setup#readme)

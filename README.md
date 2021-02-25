@@ -7,7 +7,7 @@ This repository is a **step-by-step guide** of all the CLI commands run and file
 Following a step-by-step guide is more work than cloning a boilerplate but:
 
 - You understand what's included better, because you add things as you go.
-- It is better-suited for Blitz, which uses CLI commands such as Prisma migrations or model scaffoldings.
+- It is better-suited for Blitz, which uses CLI commands such as Prisma migrations or model scaffolding.
 - It is more flexible, since you can directly adapt commands to your project's needs.
 - It is more future-proof. If libraries have breaking changes, the steps might still work fine.
 
@@ -20,3 +20,5 @@ We are making a minimal app where users sign up to create simple notes and share
 ## Table of contents
 
 - [01 - System Setup](/01-system-setup#readme)
+- [02 - Project Setup](/02-project-setup#readme)
+
